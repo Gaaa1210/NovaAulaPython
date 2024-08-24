@@ -1,0 +1,8 @@
+Uma coisa muito importante que eu tenho que anotar e decorar é a normalização de dados. Por exemplo, eu tenho dois dados v1 = (200,100,1000,150) e v2 = (10, 20, 30, 40). São duas arrays muito diferentes, elas não tem correlação, é dificil de encontrar. Dai eu vou normalizar elas. Como que eu faço isso: 
+
+v1 = (200,100,1000,150) => Aqui eu tenho que encontrar o valor maximo e o valor mínino
+
+Vamos supor que o primeiro termo é A e o primeiro termo e B o segundo e assim por diante... 
+
+Eu vou pegar A - valorMinimo / ValorMaximo - valorMinimo
+
